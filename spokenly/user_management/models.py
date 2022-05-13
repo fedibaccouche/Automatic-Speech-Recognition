@@ -9,3 +9,6 @@ class AGENT(models.Model):
     firstname = models.CharField(max_length=700) 
     lastname = models.CharField(max_length=700) 
     expertid = models.ForeignKey('EXPERT', on_delete=models.CASCADE)
+
+
+

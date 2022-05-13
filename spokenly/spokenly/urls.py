@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('user/', include('user_management.urls')),
+    path('call-management/',include('call_eval.urls'))
 ]
